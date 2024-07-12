@@ -10,7 +10,7 @@ pipeline {
 
     environment{
         registry = 'quandvrobusto/house-price-prediction-api'
-        registryCredential = 'dockerhub'      
+        registryCredential = 'docker-id'      
     }
 
     stages {
